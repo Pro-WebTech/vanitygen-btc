@@ -6,21 +6,12 @@ Vanitygen PLUS!
 
 Note: For generating a Zcash or Zclassic address please see the Z repo: https://github.com/exploitagency/vanitygen_z
 
-Forked from samr7/vanitygen ,  
-then modified by Corey Harding  
-to support various Alt-Coins,  
-and with the following changes:  
-
  + Generate vanity addresses for 80+ coins! with mods by Corey Harding  
  + I also removed the prefix length limit to search for longer addresses.   
  + Manually merge changes from: cryptapus For -Y privkey values  
  + Manually merge changes from: elichai For keyconv decrypt  
  + Manually merge changes from: salfter For compressed key support  
- + Manually merge changes from: WyseNynja For oclvanityminer updates  
- + Manually merge changes from: Rytiss For Initialize bn_zero to allow Intel CPU OpenCL compilation  
- + Manually merge changes from: fizzisist For Document -P option  
- + Manually merge changes from: bitkevin For fix hd 68/69xx, 7xxx   
- + Manually merge changes from: wolf9466 For Groestlcoin address support  
+ + Manually merge changes from: WyseNynja For oclvanityminer updates
 
 **WARNING!** This program has not been thoroughly tested.  Please attempt importing an address first.  
 Send a tiny amount you don't mind losing to the address.  Then perform a test spend.  
